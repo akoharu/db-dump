@@ -12,11 +12,12 @@ Requires the [gdrive](https://github.com/prasmussen/gdrive) command line utility
 ## Installation
 1. Download the [gdrive](https://github.com/prasmussen/gdrive)  utility from its GitHub page and follow its installation guide.
 
-# find installation file version specifiv to your version
-wget -O gdrive "https://drive.google.com/uc?id=1Ej8VgsW5RgK66Btb9p74tSdHMH3p4UNb&export=download"
-chmod +x gdrive
-sudo mv gdrive /usr/local/bin/
-
+	## find installation file version specifiv to your version
+	```sh
+	wget -O gdrive "https://drive.google.com/uc?id=1Ej8VgsW5RgK66Btb9p74tSdHMH3p4UNb&export=download"
+	chmod +x gdrive
+	sudo mv gdrive /usr/local/bin/
+	```
 2. Clone this repository
 3. Make the `db-dump.sh` script executable, and link it somewhere it can be called from any directory e.g:
 
